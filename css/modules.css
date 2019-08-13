@@ -1,0 +1,30 @@
+:root{
+  --bg-color: lightgray;
+  --border: 1px solid black;
+}
+
+aside {
+  background-color: var(--bg-color);
+  border: var(--border);
+}
+
+.largeCard{
+  background-color: var(--bg-color);
+  border: var(--border);
+}
+div {
+  background-color: var(--bg-color);
+  border: var(--border);
+}
+#footer{
+  background-color: var(--bg-color);
+  border: var(--border);
+}
+nav {
+  background-color: var(--bg-color);
+  border: var(--border);
+}
+.smallCard{
+  background-color: var(--bg-color);
+  border: var(--border);
+}
