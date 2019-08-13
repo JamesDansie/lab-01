@@ -1,8 +1,22 @@
+/* default is for phones */
 :root{
   --bg-color: lightgray;
   --border: 1px solid black;
 }
-
+/* tablet mode */
+@media all and (min-width: 600px){
+  :root{
+  --bg-color: red;
+  --border: 1px solid white;
+  }
+}
+/* desktop mode */
+@media all and (min-width: 960px){
+  :root{
+    --bg-color: lightblue;;
+    --border: 5px dashed pink;
+  }
+}
 aside {
   background-color: var(--bg-color);
   border: var(--border);
